@@ -1,0 +1,31 @@
+Apple-Notes
+│
+├── README.md
+├── LICENSE
+├── pyproject.toml
+├── requirements.txt
+├── .gitignore
+│
+├── src
+│   └── apple_notes_exporter
+│       │
+│       ├── __init__.py
+│       ├── main.py
+│       │
+│       ├── core
+│       │   ├── __init__.py
+│       │   ├── config.py
+│       │   └── logger.py
+│       │
+│       └── gui
+│           ├── __init__.py
+│           └── main_window.py
+│        
+├── tests
+│   └── __init__.py
+│
+├── docs
+│
+├── export
+│
+└── logs
